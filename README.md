@@ -10,21 +10,23 @@
 ## Passo a passo
 
 Clone Repositório
+
 ```sh
 git clone -b laravel-10-com-php-8.1 https://github.com/RicardoGomes335/cms-desafio.git
 ```
+
 ```sh
 cd app-laravel
 ```
 
-
 Crie o Arquivo .env
+
 ```sh
 cp .env.example .env
 ```
 
-
 Atualize as variáveis de ambiente do arquivo .env
+
 ```dosini
 APP_NAME=Laravel
 APP_URL=http://localhost:8989
@@ -45,29 +47,36 @@ REDIS_PASSWORD=null
 REDIS_PORT=6379
 ```
 
-
 Suba os containers do projeto
+
 ```sh
 docker-compose up -d
 ```
 
-
 Acesse o container app
+
 ```sh
 docker-compose exec app bash
 ```
 
-
 Instale as dependências do projeto
+
 ```sh
 composer install
 ```
 
-
 Gere a key do projeto Laravel
+
 ```sh
 php artisan key:generate
 ```
+
+Rode a migration
+
+```sh
+php artisan php artisan migrate
+```
+
 Acesso do painel PhpMyAdmin
 [http://localhost:8888](http://localhost:8888)
 
