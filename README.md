@@ -50,31 +50,25 @@ REDIS_PORT=6379
 Suba os containers do projeto
 
 ```sh
-docker-compose up -d
-```
-
-Acesse o container app
-
-```sh
-docker-compose exec app bash
+docker-compose up -d --build
 ```
 
 Instale as dependências do projeto
 
 ```sh
-composer install
+docker exec setup-php composer install
 ```
 
 Gere a key do projeto Laravel
 
 ```sh
-php artisan key:generate
+docker exec setup-php php artisan key:generate
 ```
 
 Rode a migration
 
 ```sh
-php artisan php artisan migrate
+docker exec setup-php php artisan php artisan migrate
 ```
 
 Acesso do painel PhpMyAdmin
