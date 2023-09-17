@@ -71,6 +71,19 @@ Rode a migration
 docker exec setup-php php artisan php artisan migrate
 ```
 
+Configure o SMTP server para envio de emails no arquivo .env
+
+```sh
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=seuemail@gmail.com
+MAIL_PASSWORD=password
+MAIL_ENCRYPTION=TLS
+MAIL_FROM_ADDRESS=seuemail@gmail.com
+MAIL_FROM_NAME="${APP_NAME}"
+```
+
 Acesso do painel PhpMyAdmin
 [http://localhost:8888](http://localhost:8888)
 
