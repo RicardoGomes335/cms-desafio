@@ -14,9 +14,13 @@ use App\Mail\MensagemTesteMail;
 |
 */
 
+/*
 Route::get('/', function () {
     return view('welcome');
 });
+*/
+
+Route::get('/', [\App\Http\Controllers\PrincipalController::class, 'principal'])->name('site.principal');
 
 Auth::routes(['verify' => true]);
 

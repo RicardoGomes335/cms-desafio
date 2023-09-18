@@ -1,0 +1,515 @@
+.header{
+	padding:3em 0;
+	text-align: center;
+}
+
+.home,
+.home * {
+  box-sizing: border-box;
+}
+.home {
+  background: #ffffff;
+  width: 100%;
+  height: 2124px;
+  position: relative;
+  margin: 0;
+}
+
+
+.documentos-de-suporte {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-53 {
+  background: #1a374d;
+  width: 1550px;
+  height: 731px;
+  position: absolute;
+  left: 0px;
+  top: 1393px;
+}
+.group-345 {
+  width: 314px;
+  height: 337px;
+  position: static;
+}
+.rectangle-51 {
+  background: #ffffff;
+  border-radius: 4px;
+  width: 314px;
+  height: 337px;
+  position: absolute;
+  left: 231px;
+  top: 1609px;
+}
+.t-tulo-do-documento {
+  color: #1a374d;
+  text-align: center;
+  font: 400 28px "Ubuntu", sans-serif;
+  position: absolute;
+  left: 261px;
+  top: 1767px;
+  width: 254px;
+  height: 70px;
+}
+.group-66 {
+  width: 280.05px;
+  height: 46px;
+  position: static;
+}
+.rectangle-532 {
+  background: #2d719f;
+  border-radius: 4px;
+  width: 280.05px;
+  height: 45.62px;
+  position: absolute;
+  left: 247.97px;
+  top: 1879px;
+}
+.baixar {
+  color: #ffffff;
+  text-align: center;
+  font: 500 18px "Ubuntu", sans-serif;
+  position: absolute;
+  left: 250px;
+  top: 1879.58px;
+  width: 277px;
+  height: 45.42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.group-99 {
+  width: 58.46px;
+  height: 63.2px;
+  position: static;
+}
+.vector {
+  position: absolute;
+  left: 359px;
+  top: 1679.44px;
+  overflow: visible;
+}
+.vector-4 {
+  position: absolute;
+  left: 363.06px;
+  top: 1672.46px;
+  overflow: visible;
+}
+.text-snippet {
+  position: absolute;
+  left: 360.62px;
+  top: 1662px;
+  overflow: visible;
+}
+.group-346 {
+  width: 314px;
+  height: 337px;
+  position: static;
+}
+.rectangle-512 {
+  background: #ffffff;
+  border-radius: 4px;
+  width: 314px;
+  height: 337px;
+  position: absolute;
+  left: 622px;
+  top: 1609px;
+}
+.t-tulo-do-documento2 {
+  color: #1a374d;
+  text-align: center;
+  font: 400 28px "Ubuntu", sans-serif;
+  position: absolute;
+  left: 652px;
+  top: 1767px;
+  width: 254px;
+  height: 70px;
+}
+.rectangle-533 {
+  background: #2d719f;
+  border-radius: 4px;
+  width: 280.05px;
+  height: 45.62px;
+  position: absolute;
+  left: 638.97px;
+  top: 1879px;
+}
+.baixar2 {
+  color: #ffffff;
+  text-align: center;
+  font: 500 18px "Ubuntu", sans-serif;
+  position: absolute;
+  left: 641px;
+  top: 1879.58px;
+  width: 277px;
+  height: 45.42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vector3 {
+  position: absolute;
+  left: 750px;
+  top: 1679.44px;
+  overflow: visible;
+}
+.vector-42 {
+  position: absolute;
+  left: 754.06px;
+  top: 1672.46px;
+  overflow: visible;
+}
+.text-snippet2 {
+  position: absolute;
+  left: 751.62px;
+  top: 1662px;
+  overflow: visible;
+}
+.group-347 {
+  width: 314px;
+  height: 337px;
+  position: static;
+}
+.rectangle-513 {
+  background: #ffffff;
+  border-radius: 4px;
+  width: 314px;
+  height: 337px;
+  position: absolute;
+  left: 1013px;
+  top: 1609px;
+}
+.t-tulo-do-documento3 {
+  color: #1a374d;
+  text-align: center;
+  font: 400 28px "Ubuntu", sans-serif;
+  position: absolute;
+  left: 1043px;
+  top: 1767px;
+  width: 254px;
+  height: 70px;
+}
+.rectangle-534 {
+  background: #2d719f;
+  border-radius: 4px;
+  width: 280.05px;
+  height: 45.62px;
+  position: absolute;
+  left: 1029.97px;
+  top: 1879px;
+}
+.baixar3 {
+  color: #ffffff;
+  text-align: center;
+  font: 500 18px "Ubuntu", sans-serif;
+  position: absolute;
+  left: 1032px;
+  top: 1879.58px;
+  width: 277px;
+  height: 45.42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vector5 {
+  position: absolute;
+  left: 1141px;
+  top: 1679.44px;
+  overflow: visible;
+}
+.vector-43 {
+  position: absolute;
+  left: 1145.06px;
+  top: 1672.46px;
+  overflow: visible;
+}
+.text-snippet3 {
+  position: absolute;
+  left: 1142.62px;
+  top: 1662px;
+  overflow: visible;
+}
+.documentos-de-suporte2 {
+  color: #ffffff;
+  text-align: left;
+  font: 700 33px "Ubuntu", sans-serif;
+  position: absolute;
+  left: 80px;
+  top: 1473px;
+  width: 522px;
+}
+.frame-30 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 620px;
+  top: 2016px;
+}
+.rectangle-56 {
+  background: #79bedf;
+  border-radius: 7px;
+  flex-shrink: 0;
+  width: 31.66px;
+  height: 6px;
+  position: relative;
+}
+.rectangle-57 {
+  background: #79bedf;
+  border-radius: 7px;
+  opacity: 0.30000001192092896;
+  flex-shrink: 0;
+  width: 31.66px;
+  height: 6px;
+  position: relative;
+}
+.rectangle-58 {
+  background: #79bedf;
+  border-radius: 7px;
+  opacity: 0.30000001192092896;
+  flex-shrink: 0;
+  width: 31.66px;
+  height: 6px;
+  position: relative;
+}
+.rectangle-59 {
+  background: #79bedf;
+  border-radius: 7px;
+  opacity: 0.30000001192092896;
+  flex-shrink: 0;
+  width: 31.66px;
+  height: 6px;
+  position: relative;
+}
+.rectangle-60 {
+  background: #79bedf;
+  border-radius: 7px;
+  opacity: 0.30000001192092896;
+  flex-shrink: 0;
+  width: 31.66px;
+  height: 6px;
+  position: relative;
+}
+.rectangle-61 {
+  background: #79bedf;
+  border-radius: 7px;
+  opacity: 0.30000001192092896;
+  flex-shrink: 0;
+  width: 31.66px;
+  height: 6px;
+  position: relative;
+}
+.rectangle-62 {
+  background: #79bedf;
+  border-radius: 7px;
+  opacity: 0.30000001192092896;
+  flex-shrink: 0;
+  width: 31.66px;
+  height: 6px;
+  position: relative;
+}
+.rectangle-63 {
+  background: #79bedf;
+  border-radius: 7px;
+  opacity: 0.30000001192092896;
+  flex-shrink: 0;
+  width: 31.66px;
+  height: 6px;
+  position: relative;
+}
+.frame-31 {
+  background: rgba(255, 248, 221, 0.69);
+  border-radius: 4px;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 1414px;
+  top: 1739px;
+}
+.arrow-forward-ios {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-32 {
+  background: rgba(255, 248, 221, 0.69);
+  border-radius: 4px;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 80px;
+  top: 1739px;
+}
+.arrow-forward-ios2 {
+  flex-shrink: 0;
+  position: relative;
+  transform: translate(-24px, -24px);
+  overflow: visible;
+}
+.vitrine {
+  position: absolute;
+  inset: 0;
+  justify-content: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.image-5 {
+  width: 1550px;
+  height: 583px;
+  position: absolute;
+  left: 0px;
+  top: 104px;
+}
+.group-70 {
+  width: 411px;
+  height: 130px;
+  position: static;
+}
+.m-ximo-butant {
+  color: #ffffff;
+  text-align: left;
+  font: 400 40.02px "Ubuntu", sans-serif;
+  position: absolute;
+  left: 85px;
+  top: 364px;
+  width: 406px;
+}
+.butant {
+  color: #eddeaf;
+  text-align: left;
+  font: 400 18px/137.4% "Ubuntu", sans-serif;
+  position: absolute;
+  left: 85px;
+  top: 331px;
+  width: 411px;
+}
+.frame-26 {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 85px;
+  top: 434px;
+}
+.bed {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+._2-dorms {
+  color: #ffffff;
+  text-align: left;
+  font: 400 20px/137.4% "Ubuntu", sans-serif;
+  position: relative;
+}
+.image-6 {
+  border-radius: 4px 4px 0px 0px;
+  width: 1550px;
+  height: 583px;
+  position: absolute;
+  left: 0px;
+  top: 104px;
+}
+.overlay {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.69) 7.8125%,
+    rgba(17, 41, 59, 0) 100%
+  );
+  width: 1550px;
+  height: 583px;
+  position: absolute;
+  left: 0px;
+  top: 104px;
+}
+.texto {
+  width: 411px;
+  height: 125px;
+  position: static;
+}
+.terraplanagem-sustent-vel {
+  color: #ffffff;
+  text-align: left;
+  font: 400 40.02px "Ubuntu", sans-serif;
+  position: absolute;
+  left: 81px;
+  top: 364px;
+  width: 406px;
+}
+.o-desafio-da-vez {
+  color: #eddeaf;
+  text-align: left;
+  font: 400 18px/137.4% "Ubuntu", sans-serif;
+  position: absolute;
+  left: 81px;
+  top: 331px;
+  width: 411px;
+}
+.sobre-o-desafio {
+  position: absolute;
+  inset: 0;
+}
+.sobre-o-desafio2 {
+  color: #1a374d;
+  text-align: left;
+  font: 300 18px/137.4% "Ubuntu", sans-serif;
+  position: absolute;
+  left: 83px;
+  top: 868px;
+  width: 1271px;
+  height: 470px;
+}
+.sobre-o-desafio3 {
+  color: #1a374d;
+  text-align: left;
+  font: 700 33px "Ubuntu", sans-serif;
+  position: absolute;
+  left: 80px;
+  top: 763px;
+  width: 584px;
+}
+.sobre-o-desafio4 {
+  color: #1a374d;
+  text-align: left;
+  font: 400 18px "Ubuntu", sans-serif;
+  position: absolute;
+  left: 1019px;
+  top: 42.5px;
+}
+.documentos-de-suporte3 {
+  color: #1a374d;
+  text-align: left;
+  font: 400 18px "Ubuntu", sans-serif;
+  position: absolute;
+  left: 1212px;
+  top: 42.5px;
+}
+.logo {
+  color: #1a374d;
+  text-align: left;
+  font: 700 64px "Ubuntu", sans-serif;
+  position: absolute;
+  left: 80px;
+  top: 16px;
+}
+
+.top-bar {
+    position: relative;
+    width: 100%;
+    height: 260px;
+    background: #313D4C;
+    margin: 0;
+}

@@ -1,0 +1,531 @@
+.cms, .cms * {
+    box-sizing: border-box;
+    }
+.cms {
+   background: #ffffff;
+    width: 1440px;
+    height: 1128px;
+    position: relative;
+    overflow: hidden;
+   }
+
+.home {
+   color: #000000;
+    text-align: left;
+    font: 500 28px 'DM Sans', sans-serif;
+    position: absolute;
+    left: 379px;
+   top: 35px;
+   }
+
+.header {
+   position: absolute;
+    inset: 0;
+   }
+
+.header2 {
+   color: #818181;
+    text-align: left;
+    font: 500 24px 'DM Sans', sans-serif;
+    position: absolute;
+    left: 381px;
+   top: 106px;
+   }
+
+.imagem-de-fundo {
+   width: 502px;
+    height: 183px;
+    position: static;
+   }
+
+.background {
+   background: #ffffff;
+    border-style: solid;
+    border-color: #d9d9d9;
+    border-width: 2px;
+    width: 502px;
+    height: 155px;
+    position: absolute;
+    left: 908px;
+   top: 184px;
+   }
+
+.arraste-e-solte-a-imagem-ou-clique-aqui {
+   color: #9a9a9a;
+    text-align: left;
+    font: 500 14px 'DM Sans', sans-serif;
+    position: absolute;
+    left: 1029px;
+   top: 247px;
+   }
+
+.arraste-e-solte-a-imagem-ou-clique-aqui-span {
+
+           color: #9a9a9a;
+
+           font: 500 14px 'DM Sans', sans-serif;
+
+
+
+       }
+
+.arraste-e-solte-a-imagem-ou-clique-aqui-span2 {
+
+           color: #9a9a9a;
+
+           font: 500 14px 'DM Sans', sans-serif;
+
+
+           text-decoration: underline;
+
+       }
+
+.imagem-de-fundo2 {
+   color: #6a6a6a;
+    text-align: left;
+    font: 500 14px 'DM Sans', sans-serif;
+    position: absolute;
+    left: 908px;
+   top: 156px;
+   }
+
+.input {
+   width: 502px;
+    height: 78px;
+    position: static;
+   }
+
+.cor-do-texto {
+   width: 502px;
+    height: 78px;
+    position: static;
+   }
+
+.background2 {
+   background: #ffffff;
+    border-style: solid;
+    border-color: #d9d9d9;
+    border-width: 2px;
+    width: 502px;
+    height: 50px;
+    position: absolute;
+    left: 381px;
+   top: 289px;
+   }
+
+.terraplanagem-sustent-vel {
+   color: #000000;
+    text-align: left;
+    font: 500 14px 'DM Sans', sans-serif;
+    position: absolute;
+    left: 400px;
+   top: 304px;
+   }
+
+.subt-tulo {
+   color: #6a6a6a;
+    text-align: left;
+    font: 500 14px 'DM Sans', sans-serif;
+    position: absolute;
+    left: 381px;
+   top: 261px;
+   }
+
+.background3 {
+   background: #ffffff;
+    border-style: solid;
+    border-color: #d9d9d9;
+    border-width: 2px;
+    width: 502px;
+    height: 50px;
+    position: absolute;
+    left: 381px;
+   top: 184px;
+   }
+
+.o-desafio-da-vez {
+   color: #000000;
+    text-align: left;
+    font: 500 14px 'DM Sans', sans-serif;
+    position: absolute;
+    left: 400px;
+   top: 199px;
+   }
+
+.t-tulo {
+   color: #6a6a6a;
+    text-align: left;
+    font: 500 14px 'DM Sans', sans-serif;
+    position: absolute;
+    left: 381px;
+   top: 156px;
+   }
+
+.sobre {
+   position: absolute;
+    inset: 0;
+   }
+
+.sobre-o-desafio {
+   color: #818181;
+    text-align: left;
+    font: 500 24px 'DM Sans', sans-serif;
+    position: absolute;
+    left: 381px;
+   top: 374px;
+   }
+
+.textarea {
+   width: 1029px;
+    height: 261px;
+    position: static;
+   }
+
+.cor-do-texto2 {
+   width: 1029px;
+    height: 261px;
+    position: static;
+   }
+
+.background4 {
+   background: #ffffff;
+    border-style: solid;
+    border-color: #d9d9d9;
+    border-width: 2px;
+    width: 1029px;
+    height: 233px;
+    position: absolute;
+    left: 381px;
+   top: 452px;
+   }
+
+.background5 {
+   position: absolute;
+    left: 1386px;
+   top: 452px;
+    overflow: visible;
+   }
+
+.background6 {
+   position: absolute;
+    left: 1391px;
+   top: 458px;
+    overflow: visible;
+   }
+
+.et-lacus-egestas-pellentesque-adipiscing-quis-in-ut-fusce-nam-sed-suspendisse-vitae-neque-enim-proin-gravida-amet-odio-dapibus-pharetra-sodales-dignissim-et-lacus-egestas-pellentesque-adipiscing-quis-in-ut-fusce-nam-sed-suspendisse-vitae-neque-enim-proin-gravida-amet-odio-dapibus-pharetra-sodales-dignissim-et-lacus-egestas-pellentesque-adipiscing-quis-in-ut-fusce-nam-sed-suspendisse-vitae-neque-enim-proin-gravida-amet-odio-dapibus-pharetra-sodales-dignissim-et-lacus-egestas-pellentesque-adipiscing-quis-in-ut-fusce-nam-sed-suspendisse-vitae-neque-enim-proin-gravida-amet-odio-dapibus-pharetra-sodales-dignissim-et-lacus-egestas-pellentesque-adipiscing-quis-in-ut-fusce-nam-sed-suspendisse-vitae-neque-enim-proin-gravida-amet-odio-dapibus-pharetra-sodales-dignissim-et-lacus-egestas-pellentesque-adipiscing-quis-in-ut-fusce-nam-sed-suspendisse-vitae {
+   color: #000000;
+    text-align: left;
+    font: 500 14px 'DM Sans', sans-serif;
+    position: absolute;
+    left: 406px;
+   top: 474px;
+    width: 980px;
+   }
+
+.conte-do {
+   color: #6a6a6a;
+    text-align: left;
+    font: 500 14px 'DM Sans', sans-serif;
+    position: absolute;
+    left: 381px;
+   top: 424px;
+   }
+
+.bot-o {
+   position: absolute;
+    inset: 0;
+   }
+
+.rectangle-12 {
+   background: #8b8b8b;
+    width: 148px;
+    height: 50px;
+    position: absolute;
+    left: 381px;
+   top: 1048px;
+   }
+
+.atualizar {
+   color: #ffffff;
+    text-align: center;
+    font: 400 14px 'DM Sans', sans-serif;
+    position: absolute;
+    left: 427px;
+   top: 1064px;
+   }
+
+.documentos-de-suporte {
+   position: absolute;
+    inset: 0;
+   }
+
+.documentos-de-suporte2 {
+   color: #818181;
+    text-align: left;
+    font: 500 24px 'DM Sans', sans-serif;
+    position: absolute;
+    left: 381px;
+   top: 712px;
+   }
+
+.bot-o2 {
+   width: 234px;
+    height: 50px;
+    position: static;
+   }
+
+.rectangle-122 {
+   border-style: solid;
+    border-color: #8b8b8b;
+    border-width: 1px;
+    width: 234px;
+    height: 50px;
+    position: absolute;
+    left: 381px;
+   top: 761px;
+   }
+
+.upload-de-novo-documento {
+   color: #8b8b8b;
+    text-align: center;
+    font: 400 14px 'DM Sans', sans-serif;
+    position: absolute;
+    left: 406px;
+   top: 777px;
+   }
+
+.tabela {
+   width: 561px;
+    height: 132px;
+    position: static;
+   }
+
+.rectangle-13 {
+   border-style: solid;
+    border-color: #d9d9d9;
+    border-width: 1px;
+    width: 561px;
+    height: 132px;
+    position: absolute;
+    left: 381px;
+   top: 840px;
+   }
+
+.documento {
+   width: 480px;
+    height: 18px;
+    position: static;
+   }
+
+.a-es {
+   width: 115px;
+    height: 18px;
+    position: static;
+   }
+
+.baixar {
+   color: #8b8b8b;
+    text-align: left;
+    font: 500 14px 'DM Sans', sans-serif;
+    text-decoration: underline;
+    position: absolute;
+    left: 765px;
+   top: 898px;
+   }
+
+.excluir {
+   color: #8b8b8b;
+    text-align: left;
+    font: 500 14px 'DM Sans', sans-serif;
+    text-decoration: underline;
+    position: absolute;
+    left: 836px;
+   top: 898px;
+   }
+
+.t-tulo-do-documento {
+   color: #000000;
+    text-align: left;
+    font: 500 14px 'DM Sans', sans-serif;
+    position: absolute;
+    left: 400px;
+   top: 898px;
+   }
+
+.baixar2 {
+   color: #8b8b8b;
+    text-align: left;
+    font: 500 14px 'DM Sans', sans-serif;
+    text-decoration: underline;
+    position: absolute;
+    left: 765px;
+   top: 941px;
+   }
+
+.excluir2 {
+   color: #8b8b8b;
+    text-align: left;
+    font: 500 14px 'DM Sans', sans-serif;
+    text-decoration: underline;
+    position: absolute;
+    left: 836px;
+   top: 941px;
+   }
+
+.t-tulo-do-documento2 {
+   color: #000000;
+    text-align: left;
+    font: 500 14px 'DM Sans', sans-serif;
+    position: absolute;
+    left: 400px;
+   top: 941px;
+   }
+
+.baixar3 {
+   color: #8b8b8b;
+    text-align: left;
+    font: 500 14px 'DM Sans', sans-serif;
+    text-decoration: underline;
+    position: absolute;
+    left: 765px;
+   top: 853px;
+   }
+
+.excluir3 {
+   color: #8b8b8b;
+    text-align: left;
+    font: 500 14px 'DM Sans', sans-serif;
+    text-decoration: underline;
+    position: absolute;
+    left: 836px;
+   top: 853px;
+   }
+
+.t-tulo-do-documento3 {
+   color: #000000;
+    text-align: left;
+    font: 500 14px 'DM Sans', sans-serif;
+    position: absolute;
+    left: 400px;
+   top: 853px;
+   }
+
+.line-1 {
+   border-style: solid;
+    border-color: #d9d9d9;
+    border-width: 1px 0 0 0;
+    width: 561px;
+    height: 0px;
+    position: absolute;
+    left: 381px;
+   top: 884px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+   }
+
+.line-2 {
+   border-style: solid;
+    border-color: #d9d9d9;
+    border-width: 1px 0 0 0;
+    width: 561px;
+    height: 0px;
+    position: absolute;
+    left: 381px;
+   top: 931px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+   }
+
+.sidebar {
+   position: absolute;
+    inset: 0;
+   }
+
+.background-sidebar {
+   background: #d9d9d9;
+    width: 356px;
+    height: 1128px;
+    position: absolute;
+    left: 0px;
+   top: 0px;
+   }
+
+.background-sidebar2 {
+   background: #c9c9c9;
+    width: 356px;
+    height: 77px;
+    position: absolute;
+    left: 0px;
+   top: 234px;
+   }
+
+.ol-jo-o {
+   color: #000000;
+    text-align: left;
+    font: 500 24px 'DM Sans', sans-serif;
+    position: absolute;
+    left: 126px;
+   top: 71px;
+   }
+
+.fazer-logout {
+   color: #8b8b8b;
+    text-align: left;
+    font: 500 18px 'DM Sans', sans-serif;
+    text-decoration: underline;
+    position: absolute;
+    left: 126px;
+   top: 133px;
+   }
+
+.menu {
+   width: 135px;
+    height: 45px;
+    position: static;
+   }
+
+.home2 {
+   color: #000000;
+    text-align: left;
+    font: 700 24px 'DM Sans', sans-serif;
+    position: absolute;
+    left: 96px;
+   top: 258px;
+   }
+
+.ellipse-1 {
+   background: #beb0b0;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 30px;
+   top: 251px;
+   }
+
+.menu2 {
+   width: 267px;
+    height: 45px;
+    position: static;
+   }
+
+.log-de-altera-es {
+   color: #000000;
+    text-align: left;
+    font: 500 24px 'DM Sans', sans-serif;
+    position: absolute;
+    left: 96px;
+   top: 346px;
+   }
+
+.ellipse-2 {
+   background: #beb0b0;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 30px;
+   top: 339px;
+   }
+
