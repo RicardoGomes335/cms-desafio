@@ -6,7 +6,9 @@
     <div class="ol-jo-o">
         Olá, João </div>
     <div class="fazer-logout">
-        Fazer logout </div>
+        <a href="#"></a>
+        Fazer logout
+    </div>
     <div class="menu">
         <div class="home2">
             Home </div>
