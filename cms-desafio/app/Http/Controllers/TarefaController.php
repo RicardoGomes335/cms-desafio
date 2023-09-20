@@ -45,6 +45,16 @@ class TarefaController extends Controller
      */
     public function store(Request $request)
     {
+
+        if ($request->image->IsValid()) {
+            $request->image->store('imagens');
+        }
+
+        if ($request->documento_suporte->IsValid()) {
+            $request->documento_suporte->store('documento_suporte');
+        }
+
+
         $regras = [
             'titulo' => 'required|min:3|max:40',
             'sub_titulo' => 'required|min:3|max:50',
