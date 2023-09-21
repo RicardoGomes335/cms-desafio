@@ -14,5 +14,6 @@ class Tarefa extends Model
         'image',
         'conteudo',
         'documento_suporte',
+        'user_id',
     ];
 }

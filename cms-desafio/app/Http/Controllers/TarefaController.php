@@ -20,11 +20,18 @@ class TarefaController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
+        /*
         $id = Auth::user()->id;
         $name = Auth::user()->name;
         $email = Auth::user()->email;
+        */
+
+        //$tarefas = Tarefa::where('user_id', $user_id)->get();
+        //$tarefas = Tarefa::where('id')->get();
+        $tarefas = Tarefa::paginate(20);
+        return view('tarefa.index', ['tarefas' => $tarefas, 'request' => $request->all()]);
     }
 
     /**
@@ -72,14 +79,21 @@ class TarefaController extends Controller
             "conteudo.min" => 'O campo conteudo deve ter no mínimo 3 caracteres!',
             "conteudo.max" => 'O campo conteudo deve ter no mínimo 150 caracteres!',
             "image" => 'O campo imagem de fundo deve ter no maximo 4098px!',
-            "documento_suporte" => 'O campo documento suporte de fundo deve ter no maximo 2048px!',
+            "image.mimes" => 'A imagem deverá ter no maximo 4098px e ser no formato jpeg ou png!',
+            "documento_suporte:mimes" => 'O campo documento suporte de fundo deve ter no maximo 2048px e deverá ser no formato pdf, xls ou csv!',
         ];
 
         $request->validate($regras, $feedback);
 
-        $tarefa = Tarefa::create($request->all());
+        $dados = $request->all();
+        $dados['user_id'] = auth()->user()->id;
+
+
+        $tarefa = Tarefa::create($dados);
+
         $destinatario = auth()->user()->email;
         Mail::to($destinatario)->send(new NovaTarefaMail($tarefa));
+
         return redirect()->route('tarefa.show', ['tarefa' => $tarefa->id]);
     }
 
@@ -91,6 +105,7 @@ class TarefaController extends Controller
      */
     public function show(Tarefa $tarefa)
     {
+
         return view('tarefa.show', ['tarefa' => $tarefa]);
     }
 

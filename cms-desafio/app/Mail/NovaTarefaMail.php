@@ -25,7 +25,7 @@ class NovaTarefaMail extends Mailable
     {
         $this->titulo = $tarefa->titulo;
         $this->subtitulo = $tarefa->sub_titulo;
-        $this->created_at = date('d/m/y', strtotime($tarefa->created_at));
+        $this->created_at = date('d/m/Y', strtotime($tarefa->created_at));
         $this->url = 'http://localhost:8080/tarefa/' . $tarefa->id;
     }
 
