@@ -21,7 +21,7 @@
                                     <tr>
                                         <th scope="row">{{ $t['titulo'] }}</th>
                                         <td>{{ $t['user_id'] }}</td>
-                                        <td><a href="{{ route('tarefa.show', ['tarefa' => $t->user_id]) }}">Mais
+                                        <td><a href="{{ route('tarefa.show', ['tarefa' => $t->id]) }}">Mais
                                                 Detalhes</a>
                                         </td>
                                     </tr>

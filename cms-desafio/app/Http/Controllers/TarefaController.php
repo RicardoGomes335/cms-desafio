@@ -8,6 +8,8 @@ use App\Models\Tarefa;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Mail as FacadesMail;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\DB;
 
 class TarefaController extends Controller
 {
@@ -30,7 +32,7 @@ class TarefaController extends Controller
 
         //$tarefas = Tarefa::where('user_id', $user_id)->get();
         //$tarefas = Tarefa::where('id')->get();
-        $tarefas = Tarefa::paginate(20);
+        $tarefas = Tarefa::paginate(30);
         return view('tarefa.index', ['tarefas' => $tarefas, 'request' => $request->all()]);
     }
 
@@ -53,12 +55,30 @@ class TarefaController extends Controller
     public function store(Request $request)
     {
 
-        if ($request->image->IsValid()) {
-            $request->image->store('imagens');
+        //Image Upload
+        if ($request->hasFile('image') && $request->file('image')->IsValid()) {
+
+            $file = $request->file('image');
+            $file->store('imagens');
+            //$file->storeAs('imagens', $request->user()->id . "." . $file->getClientOriginalExtension());
+
+            /*
+            $requestImage = $request->image;
+            $extension = $requestImage->extension();
+            $imageName = md5($requestImage->image->getClientOriginalName() . strtotime("now") . "." . $extension);
+            $requestImage->move(public_path('storage/app/public/imagens'), $imageName);
+            $data = $requestImage;
+            */
+            //$data['image'] = $request->image->store('imagens');
+            //$path = $request->file('image')->store('imagens');
+
+            //return $path;
         }
 
-        if ($request->documento_suporte->IsValid()) {
-            $request->documento_suporte->store('documento_suporte');
+        if ($request->hasFile('documento_suporte') && $request->file('documento_suporte')->IsValid()) {
+            $doc = $request->file('documento_suporte');
+            $doc->store('documento_suporte');
+            //$data['documento_suporte'] = $request->documento_suporte->store('documento_suporte');
         }
 
 
@@ -86,6 +106,8 @@ class TarefaController extends Controller
         $request->validate($regras, $feedback);
 
         $dados = $request->all();
+        $dados['image'] = $file->hashName();
+        $dados['documento_suporte'] = $doc->hashName();
         $dados['user_id'] = auth()->user()->id;
 
 
@@ -141,5 +163,23 @@ class TarefaController extends Controller
     public function destroy(Tarefa $tarefa)
     {
         //
+    }
+
+    /** Downloads pdf */
+    public function downloadPDF($id)
+    {
+        $pdf_uploads = DB::table('tarefas')->where('id', $id)->first();
+        $pathToFile = storage_path("app/public/documento_suporte/{$pdf_uploads->documento_suporte}");
+        return \Response::download($pathToFile);
+        //return dd('OK');
+    }
+
+    /** Downloads imagens */
+    public function downloadIMG($id)
+    {
+        $img_uploads = DB::table('tarefas')->where('id', $id)->first();
+        $pathToFile = storage_path("app/public/imagens/{$img_uploads->image}");
+        return \Response::download($pathToFile);
+        //return dd('OK');
     }
 }

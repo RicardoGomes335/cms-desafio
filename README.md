@@ -84,6 +84,12 @@ MAIL_FROM_ADDRESS=seuemail@gmail.com
 MAIL_FROM_NAME="${APP_NAME}"
 ```
 
+Configure o nome do app antes de subir o Docker .env
+
+```sh
+APP_NAME=cms
+```
+
 Acesso do painel PhpMyAdmin
 [http://localhost:8888](http://localhost:8888)
 

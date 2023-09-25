@@ -25,14 +25,14 @@
                                 </div>
                             </div>
                             <div class="mb-3">
-                                <label class="form-label">Imagem de fundo</label>
-                                <input type="file" name="image" class="form-control-file">
+                                <label for="formFile" class="form-label">Imagem</label>
+                                <input type="file" name="image" id="image" class="form-control" id="formFile">
                                 {{ $errors->has('image') ? $errors->first('image') : '' }}
                             </div>
                             <div class="form-group">
                                 <div class="mb-3">
-                                    <label class="form-label">Documento</label>
-                                    <input type="file" name="documento_suporte" class="form-control-file">
+                                    <label for="formFile" class="form-label">Documento</label>
+                                    <input type="file" name="documento_suporte" class="form-control" id="formFile">
                                     {{ $errors->has('documento_suporte') ? $errors->first('documento_suporte') : '' }}
                                 </div>
                             </div>

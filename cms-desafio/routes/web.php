@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Mail\MensagemTesteMail;
+use App\Http\Controllers\TarefaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,6 +29,11 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])
     ->name('home')
     ->middleware('verified');
 Route::resource('tarefa', 'App\Http\Controllers\TarefaController')->middleware('verified');
+
+Route::controller(TarefaController::class)->group(function () {
+    Route::get('pdf/download/{id}', 'downloadPDF')->middleware('verified');
+    Route::get('img/download/{id}', 'downloadIMG')->middleware('verified');
+});
 
 
 Route::get('/mensagem-teste', function () {

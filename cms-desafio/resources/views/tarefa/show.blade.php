@@ -34,8 +34,10 @@
                                     <td>{{ $tarefa->titulo }}</td>
                                     <td>{{ $tarefa->sub_titulo }}</td>
                                     <td>{{ $tarefa->conteudo }}</td>
-                                    <td>{{ $tarefa->image }}</td>
-                                    <td>{{ $tarefa->documento_suporte }}</td>
+                                    <td><a href="{{ url('img/download/' . $tarefa->id) }}" class="btn btn-sm btn-primary"><i
+                                                class="fa fa-download"></i>Download</a></td>
+                                    <td><a href="{{ url('pdf/download/' . $tarefa->id) }}"
+                                            class="btn btn-sm btn-primary"><i class="fa fa-download"></i>Download</a></td>
                                 </tr>
                             </tbody>
                         </table>
