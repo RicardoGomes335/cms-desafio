@@ -24,16 +24,16 @@ class TarefaController extends Controller
      */
     public function index(Request $request)
     {
-        /*
+
         $id = Auth::user()->id;
         $name = Auth::user()->name;
         $email = Auth::user()->email;
-        */
+
 
         //$tarefas = Tarefa::where('user_id', $user_id)->get();
         //$tarefas = Tarefa::where('id')->get();
-        $tarefas = Tarefa::paginate(30);
-        return view('tarefa.index', ['tarefas' => $tarefas, 'request' => $request->all()]);
+        $tarefas = Tarefa::paginate(5);
+        return view('tarefa.index', ['tarefas' => $tarefas, 'request' => $request->all()], ['titulo' => 'Tarefas']);
     }
 
     /**
@@ -43,7 +43,7 @@ class TarefaController extends Controller
      */
     public function create()
     {
-        return view('tarefa.create');
+        return view('tarefa.create', ['titulo' => 'Nova Tarefa']);
     }
 
     /**
@@ -60,19 +60,6 @@ class TarefaController extends Controller
 
             $file = $request->file('image');
             $file->store('imagens');
-            //$file->storeAs('imagens', $request->user()->id . "." . $file->getClientOriginalExtension());
-
-            /*
-            $requestImage = $request->image;
-            $extension = $requestImage->extension();
-            $imageName = md5($requestImage->image->getClientOriginalName() . strtotime("now") . "." . $extension);
-            $requestImage->move(public_path('storage/app/public/imagens'), $imageName);
-            $data = $requestImage;
-            */
-            //$data['image'] = $request->image->store('imagens');
-            //$path = $request->file('image')->store('imagens');
-
-            //return $path;
         }
 
         if ($request->hasFile('documento_suporte') && $request->file('documento_suporte')->IsValid()) {
@@ -128,7 +115,7 @@ class TarefaController extends Controller
     public function show(Tarefa $tarefa)
     {
 
-        return view('tarefa.show', ['tarefa' => $tarefa]);
+        return view('tarefa.show', ['tarefa' => $tarefa], ['titulo' => 'Nova Tarefa']);
     }
 
     /**

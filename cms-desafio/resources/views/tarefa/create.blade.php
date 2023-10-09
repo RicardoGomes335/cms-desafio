@@ -1,11 +1,18 @@
 @extends('layouts.app')
 
+@section('titulo', $titulo)
+
 @section('content')
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-6">
                 <div class="card">
                     <div class="card-header">Adicionar tarefa</div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="{{ route('tarefa.index') }}">Voltar</a></li>
+                        </ul>
+                    </div>
 
                     <div class="card-body">
                         <form method="POST" action="{{ route('tarefa.store') }}" enctype="multipart/form-data">
